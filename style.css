@@ -1,0 +1,22 @@
+body {
+background-image:red;
+background-size:100%;
+color : #blue;
+width : 840px;
+margin : auto;
+font-size:1em;
+}
+div.ul.li.p{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-left:100%;
+    width:300%;
+  }
+  to{
+    margin-left:0%;
+    width:100%;
+  }
+}
